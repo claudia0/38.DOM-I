@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Traducción-formulario</title>
+	<link rel="stylesheet" href="syle.css">
+</head>
+<body>
+	<form action="">
+		<h2 id="passwords"><strong>Please sign in</strong></h2>
+		<input type="text" id="email" placeholder="Please enter your email">
+		<input type="text" id="password" placeholder="Password">
+		<button type="button">Submit</button>
+	</form>
+	<script>
+			document.getElementById("passwords").innerHTML = "Por favor inicia sesión";
+			document.getElementById("email").setAttribute("placeholder","Correo elctrónico");
+			document.getElementById("password").setAttribute("placeholder","Contraseña");
+			document.getElementById("button").setAttribute("placeholder","Iniciar Sesión");
+	</script>
+</body>
+</html>

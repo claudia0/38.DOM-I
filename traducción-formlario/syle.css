@@ -1,0 +1,15 @@
+body{
+ background-color: lightgrey;
+}
+button{
+	background-color: blue;
+	color: white;
+
+}
+input, button {
+	display: block;
+	margin-top: 1%;
+	height: 30px;
+	width: 50%;
+}
+
